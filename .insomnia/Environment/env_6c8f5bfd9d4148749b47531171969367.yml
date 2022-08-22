@@ -1,0 +1,14 @@
+_id: env_6c8f5bfd9d4148749b47531171969367
+type: Environment
+parentId: env_914e315a40ce22bf0274d1ae4b3b22e746cea5f9
+modified: 1661202437389
+created: 1660128968206
+name: staging
+data:
+  apiAddress: https://cc-staging-w-landingdoc-api-svc.azurewebsites.net
+dataPropertyOrder:
+  "&":
+    - apiAddress
+color: null
+isPrivate: false
+metaSortKey: 1660128968206

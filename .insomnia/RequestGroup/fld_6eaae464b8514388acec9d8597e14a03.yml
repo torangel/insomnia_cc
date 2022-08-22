@@ -1,0 +1,17 @@
+_id: fld_6eaae464b8514388acec9d8597e14a03
+type: RequestGroup
+parentId: wrk_e0ededebaf5043d98c7a4d13821f5c9e
+modified: 1659087178925
+created: 1654610649259
+name: Landingdoc
+description: ""
+environment:
+  clientId: eed3a78c-65ee-4187-a268-28f337ae4c3f
+  clientSecret: 2vcmc7p9DX-IvzoOd1~E~Wtk-sXI6.z3n9
+  scope: api://de7b0d08-8ab1-447b-82e5-1618a2c0c379/.default
+environmentPropertyOrder:
+  "&":
+    - clientId
+    - clientSecret
+    - scope
+metaSortKey: -1654610649259

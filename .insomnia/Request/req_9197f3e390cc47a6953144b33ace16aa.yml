@@ -1,0 +1,142 @@
+_id: req_9197f3e390cc47a6953144b33ace16aa
+type: Request
+parentId: fld_6eaae464b8514388acec9d8597e14a03
+modified: 1661165400391
+created: 1653402691697
+url: "{{ _.apiAddress }}/landingdoc"
+name: PostLandingDocument
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "deliveryNoteType": 0,
+      "deliveryNoteNumber": 1967814,
+      "deliveryNoteStatus": 1,
+      "salesOrganizationRegistrationTime": "2022-04-26T15:10:02.885+02:00",
+      "salesOrganizationId": 8,
+      "salesOrganizationNorwegianLegalEntity": "951206091",
+      "salesDate": "2020-10-01T00:00:00+02:00",
+      "buyer": {
+        "nation": "NOR",
+        "name": "Fosnavaag Pelagic AS",
+        "productionFacility": "M2047",
+        "productionMunicipality": "1515",
+        "legalEntityMainUnit": "999652921",
+        "legalEntitySubUnit": "981968638",
+        "fdirBuyerId": "200014785",
+        "buyerFacility": "M2047"
+      },
+      "receiver": {
+        "receivingFacility": "M2047",
+        "receivingMunicipality": "1515",
+        "nation": "NOR",
+        "name": "Fosnavaag Pelagic AS",
+        "legalEntityMainUnit": "999652921",
+        "legalEntitySubUnit": "981968638"
+      },
+      "fisherman": {
+        "idType": 2,
+        "id": "869231312",
+        "nation": "NOR",
+        "name": "Sigvald Sævik Fr",
+        "norwegianLegalEntity": "869231312",
+        "taxMunicipality": "1515"
+      },
+      "vessel": {
+        "nation": "NOR",
+        "vesselName": "Kampen",
+        "vesselType": "01",
+        "radioCallSignal": "LG5070",
+        "registrationId": "M 0007HØ",
+        "registrationIdQuotaVessel": "M 0007HØ",
+        "captainsName": "Sigvald Sævik"
+      },
+      "catchData": {
+        "diaryNumber": 0,
+        "catchField": "80733",
+        "catchRegion": "27",
+        "catchYear": 2020,
+        "firstCatchDate": "2020-10-01T00:00:00+02:00",
+        "quotaType": "1",
+        "gear": "11",
+        "lastCatchDate": "2020-10-01T00:00:00+02:00",
+        "zone": "NOR",
+        "tripNumber": 0
+      },
+      "landing": {
+        "partialLanding": false,
+        "landingTime": "2020-10-01T21:42:00+02:00"
+      },
+      "lineList": [
+        {
+          "lineNumber": 1,
+          "usage": "211",
+          "species": "2013",
+          "preservation": "9",
+          "quality": "99",
+          "delivery": "3",
+          "size": 7250999,
+          "condition": "110",
+          "numberOfPieces": 0,
+          "grossQuantityKg": 7606.0,
+          "netQuantityKg": 7454.0,
+          "lineAmount": {
+            "postProcessedCreditAmount": 0.0,
+            "confiscatedValue": 0.0,
+            "salesOrganizationFee": 581.0,
+            "fishermanPrice": 12.0,
+            "buyerPrice": 12.0,
+            "supportAmount": 0.0,
+            "fishermanAmount": 89448.0,
+            "buyerAmount": 89448.0
+          }
+        },
+        {
+          "lineNumber": 2,
+          "usage": "211",
+          "species": "2013",
+          "preservation": "9",
+          "quality": "99",
+          "delivery": "3",
+          "size": 7250999,
+          "condition": "110",
+          "numberOfPieces": 0,
+          "grossQuantityKg": 7607.0,
+          "netQuantityKg": 7455.0,
+          "lineAmount": {
+            "postProcessedCreditAmount": 0.0,
+            "confiscatedValue": 0.0,
+            "salesOrganizationFee": 581.0,
+            "fishermanPrice": 12.0,
+            "buyerPrice": 12.0,
+            "supportAmount": 0.0,
+            "fishermanAmount": 89448.0,
+            "buyerAmount": 89448.0
+          }
+        }
+      ],
+      "deliveryNoteTotal": {
+        "fishermanAmount": 89448.0,
+        "buyerAmount": 89448.0,
+        "grossQuantityKg": 7606.0,
+        "netQuantityKg": 7606.0
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_bc89f15b5c9748b4b1e14b09fe8f9d6b
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjJaUXBKM1VwYmpBWVhZR2FYRUpsOGxWMFRPSSIsImtpZCI6IjJaUXBKM1VwYmpBWVhZR2FYRUpsOGxWMFRPSSJ9.eyJhdWQiOiJhcGk6Ly9kZTdiMGQwOC04YWIxLTQ0N2ItODJlNS0xNjE4YTJjMGMzNzkiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8wMWRhNGU0MC1mZjJhLTQ0NjctOTc2Ny05YTJmYjIxY2RjNTAvIiwiaWF0IjoxNjYxMTY1MDYxLCJuYmYiOjE2NjExNjUwNjEsImV4cCI6MTY2MTE2ODk2MSwiYWlvIjoiRTJaZ1lIZ2NQcHMvNGZpbFN3S3lDVnMrVDdnZkN3QT0iLCJhcHBpZCI6IjBjN2QxMmMwLWFkYWUtNDNhOS04OGVmLWM3M2Q2YTQ2ZTkyMyIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzAxZGE0ZTQwLWZmMmEtNDQ2Ny05NzY3LTlhMmZiMjFjZGM1MC8iLCJvaWQiOiIxMDQ0YWYwNS05ZjVmLTQxYmQtOWUwYS01ZGU2NjAyNjcwOGEiLCJyaCI6IjAuQVR3QVFFN2FBU3JfWjBTWFo1b3ZzaHpjVUFnTmU5NnhpbnRFZ3VVV0dLTEF3M2s4QUFBLiIsInJvbGVzIjpbImxhbmRpbmdkb2Mud3JpdGUiXSwic3ViIjoiMTA0NGFmMDUtOWY1Zi00MWJkLTllMGEtNWRlNjYwMjY3MDhhIiwidGlkIjoiMDFkYTRlNDAtZmYyYS00NDY3LTk3NjctOWEyZmIyMWNkYzUwIiwidXRpIjoiUGZVbk4wZzRHRS1TMjVWMmNpb0xBQSIsInZlciI6IjEuMCJ9.D4z9Rsp7zBmcuk-xZKJtF4IF6usMWjYyBjfJN9zmq5WngrrYzhubfge6qH82g1WeH2gjcfiPxOmkWo_68uhbAHlXe-xjVbJybszbXW1gM8f8ZUHNe_gXVjaaBYw-GNFYtby3ewB5Cpps99JuSTcKsjOOAJPHI59mSrz1qOwNJQ4fzhCRYijBsqktcV6DbzI2yr5tCVM1RTyjucR2_IW2YHOY4TtS7oa75lpzG8mvrhbvtRHeaPP_lfishv4K9v4OQLdDxzJaF85Yj0Z1vKw600vhGdmxgbUJgXDIyzyhRt3BdOWdTNcupj54ywKzWeBHNOS4M32TRGuM8Tuqvu79uw
+metaSortKey: -1654607030920
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

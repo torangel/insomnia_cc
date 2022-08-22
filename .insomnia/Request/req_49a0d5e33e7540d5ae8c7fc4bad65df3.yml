@@ -1,0 +1,43 @@
+_id: req_49a0d5e33e7540d5ae8c7fc4bad65df3
+type: Request
+parentId: fld_5530e671030445389a1eda7ff9983b97
+modified: 1660296295391
+created: 1653401081710
+url: "{{ _.tokenAddress }}"
+name: SildeLagetGetToken
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_ac0a934b4d6d49e1aaf5ff738a24bad9
+      name: client_id
+      value: b35288fc-368b-479c-a00c-6e03797583ef
+      description: ""
+    - id: pair_f8391533648844aca7d9f106592061f2
+      name: client_secret
+      value: .7c8Q~FlYSVVQkH8RZ53FOXepQ9t81.1hIcqObVt
+      description: ""
+    - id: pair_2d496137849345af910e413984c7bdce
+      name: grant_type
+      value: client_credentials
+      description: ""
+    - id: pair_bc224ea46adf414aa9dd8439c45f9c27
+      name: scope
+      value: api://4c270d5e-45be-45f2-ab22-68221ddbafd6/.default
+      description: ""
+parameters: []
+headers:
+  - id: pair_fa67bfea748e455781b9617d3eea7a58
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+authentication: {}
+metaSortKey: -1654607030995
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

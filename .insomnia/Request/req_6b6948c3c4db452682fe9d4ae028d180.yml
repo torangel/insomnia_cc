@@ -1,0 +1,105 @@
+_id: req_6b6948c3c4db452682fe9d4ae028d180
+type: Request
+parentId: fld_6eaae464b8514388acec9d8597e14a03
+modified: 1661202950216
+created: 1655455774567
+url: "{{ _.apiAddress }}/catchreportnav"
+name: PostPrelanding
+description: ""
+method: POST
+body:
+  mimeType: application/xml
+  text: >-
+    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+    <Fangstsert_Innmeld_hode CatchCertificate="1" PreLanding="0" PriorNotification="0" Tillegg="0" Status="1" Villaks="1" UtenFiskOmbord="0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="C:\EcCC-2010-PriorNotifications\1.FromCatchReportToEseddel3\CatchReportNav.xsd">
+      <Nr_>131701</Nr_>
+      <SalgslagID>7</SalgslagID>
+      <Innmelding_Teller>1485</Innmelding_Teller>
+      <Navn>Norges Råfisklag</Navn>
+      <Adresse />
+      <Adresse_2>Stortorget 2</Adresse_2>
+      <Postnr>9291</Postnr>
+      <Sted>TROMSØ</Sted>
+      <Landkode />
+      <Telefonnr />
+      <Faxnr />
+      <Registermerke>M -0110-TV</Registermerke>
+      <Båtnavn>Almvik</Båtnavn>
+      <Radiokallesignal>NA</Radiokallesignal>
+      <Flaggnasjon>NO</Flaggnasjon>
+      <Båt_epost>post@catchcertificate.no</Båt_epost>
+      <Båt_telefonnr>55549590</Båt_telefonnr>
+      <Skippers_navn>Christian Strand</Skippers_navn>
+      <Skrogs_EDBID>0</Skrogs_EDBID>
+      <Fisker>
+        <Orgnr>879205522</Orgnr>
+        <Navn>Christian Strand</Navn>
+        <Adresse />
+        <Adresse_2 />
+        <Postnr />
+        <Poststed />
+        <Landkode />
+      </Fisker>
+      <Importørnr_>K17530</Importørnr_>
+      <Importør_navn>Pure Norwegian Seafood AS - CC</Importør_navn>
+      <Importør_adresse>Henda</Importør_adresse>
+      <Importør_adresse_2 />
+      <Importør_postnr>6530</Importør_postnr>
+      <Importør_sted>AVERØY</Importør_sted>
+      <Importør_landkode>CU</Importør_landkode>
+      <Importør_telefonnr />
+      <Importør_faxnr />
+      <Importør_havnekode>HAV</Importør_havnekode>
+      <Importør_havnenavn>Havanna</Importør_havnenavn>
+      <Årsak_ankomst>landing</Årsak_ankomst>
+      <EpostKopiListe>
+        <Epost Adresse="agnesa@purenorwegianseafood.no" />
+        <Epost Adresse="firmapost@rafisklaget.no" />
+        <Epost Adresse="ngone@purenorwegianseafood.no" />
+        <Epost Adresse="reidar@pns.no" />
+      </EpostKopiListe>
+      <Salgslagets_dokumentnr>NO-759-485</Salgslagets_dokumentnr>
+        <Avgang_landkode />
+      <Avgang_havnekode />
+      <ETA_dato_tid_havn>2022-07-07T21:00:00Z</ETA_dato_tid_havn>
+      <ETA_dato_tid_lossing>2022-07-07T21:00:00Z</ETA_dato_tid_lossing>
+      <Dokument_kommentar />
+      <Kansellering_aarsak_kode />
+      <Kansellering_kommentar />
+      <Gear>20</Gear>
+      <Fangstsert_Innmeld_Linje>
+        <Fiskeslag>0711</Fiskeslag>
+        <Produkttilstand>210</Produkttilstand>
+        <Konserveringsmåte>2</Konserveringsmåte>
+        <Estimert_vekt_kg_ombord>357.00</Estimert_vekt_kg_ombord>
+        <Estimert_vekt_kg_landes>357.00</Estimert_vekt_kg_landes>
+        <Estimert_produktvekt_kg_landes>357.00</Estimert_produktvekt_kg_landes>
+        <Rutenr>0730</Rutenr>
+        <Utnyttelsesgrad>1.00</Utnyttelsesgrad>
+        <Pakketype />
+        <Antall_pakkeenhet>0</Antall_pakkeenhet>
+        <Gj_sn_vekt_pr_pakke>0.00</Gj_sn_vekt_pr_pakke>
+      </Fangstsert_Innmeld_Linje>
+    </Fangstsert_Innmeld_hode>
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/xml
+    id: pair_bc89f15b5c9748b4b1e14b09fe8f9d6b
+  - id: pair_d2d5b8905d4148259a312a478783bc43
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6IjJaUXBKM1VwYmpBWVhZR2FYRUpsOGxWMFRPSSIsImtpZCI6IjJaUXBKM1VwYmpBWVhZR2FYRUpsOGxWMFRPSSJ9.eyJhdWQiOiJhcGk6Ly9kZTdiMGQwOC04YWIxLTQ0N2ItODJlNS0xNjE4YTJjMGMzNzkiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC8wMWRhNGU0MC1mZjJhLTQ0NjctOTc2Ny05YTJmYjIxY2RjNTAvIiwiaWF0IjoxNjYxMTc4MDM4LCJuYmYiOjE2NjExNzgwMzgsImV4cCI6MTY2MTE4MTkzOCwiYWlvIjoiRTJaZ1lEQ3RpK1p6YmZ5dElTU3hZaDNEamJQc0FBPT0iLCJhcHBpZCI6IjBjN2QxMmMwLWFkYWUtNDNhOS04OGVmLWM3M2Q2YTQ2ZTkyMyIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0LzAxZGE0ZTQwLWZmMmEtNDQ2Ny05NzY3LTlhMmZiMjFjZGM1MC8iLCJvaWQiOiIxMDQ0YWYwNS05ZjVmLTQxYmQtOWUwYS01ZGU2NjAyNjcwOGEiLCJyaCI6IjAuQVR3QVFFN2FBU3JfWjBTWFo1b3ZzaHpjVUFnTmU5NnhpbnRFZ3VVV0dLTEF3M2s4QUFBLiIsInJvbGVzIjpbImxhbmRpbmdkb2Mud3JpdGUiXSwic3ViIjoiMTA0NGFmMDUtOWY1Zi00MWJkLTllMGEtNWRlNjYwMjY3MDhhIiwidGlkIjoiMDFkYTRlNDAtZmYyYS00NDY3LTk3NjctOWEyZmIyMWNkYzUwIiwidXRpIjoiRGhwZVJDeU9wa3E5a1pNX2EtUWlBQSIsInZlciI6IjEuMCJ9.gfQnhQIEmYc1pyuRCqw-VqDkYsWM_RDz04-F4Wur_YotUwH4iLfMSq1nwVlhppBPjDU6Cm9uFauHW1df2Pi5KmZvRjJNvTHcTrS-Wm-t50-p8zt9TRkhxMUHquRmCO_5qq5SN9AQ4tRbjeWCXhabpbRxGc7TOVDdUgTeUXDgjftCbDUd4CHhHfmuxU8RRftu6pZGA5nCMVSH1jjCYsCNXL8WfGdLFveZ7-i8NAc_C5EtqYH2WL5zDEz0nVE5TaF7fCC9eo0rkp3eKVCoMYtpJ7ct_CFAajS0in4yfrUaEmBFKMdKvSgs7Gil68843B3YvknRr4Yd-bAmh4AMkCPWjQ
+  disabled: false
+metaSortKey: -1654607030870
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

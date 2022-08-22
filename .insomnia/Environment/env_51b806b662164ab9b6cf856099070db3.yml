@@ -1,0 +1,14 @@
+_id: env_51b806b662164ab9b6cf856099070db3
+type: Environment
+parentId: env_914e315a40ce22bf0274d1ae4b3b22e746cea5f9
+modified: 1660574009366
+created: 1659085299971
+name: local-dev
+data:
+  apiAddress: https://localhost:55576
+dataPropertyOrder:
+  "&":
+    - apiAddress
+color: null
+isPrivate: false
+metaSortKey: 1659085299971

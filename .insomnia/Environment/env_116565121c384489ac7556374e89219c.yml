@@ -1,0 +1,14 @@
+_id: env_116565121c384489ac7556374e89219c
+type: Environment
+parentId: env_914e315a40ce22bf0274d1ae4b3b22e746cea5f9
+modified: 1660573953457
+created: 1659087304319
+name: cloud-dev
+data:
+  apiAddress: https://cc-dev-w-landingdoc-api-svc.azurewebsites.net
+dataPropertyOrder:
+  "&":
+    - apiAddress
+color: null
+isPrivate: false
+metaSortKey: 1659087304319

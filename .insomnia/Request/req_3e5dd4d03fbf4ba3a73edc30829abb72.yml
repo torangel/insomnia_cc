@@ -1,0 +1,48 @@
+_id: req_3e5dd4d03fbf4ba3a73edc30829abb72
+type: Request
+parentId: fld_6eaae464b8514388acec9d8597e14a03
+modified: 1661178428780
+created: 1659086279784
+url: "{{ _.tokenAddress }}"
+name: GetToken
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_ac0a934b4d6d49e1aaf5ff738a24bad9
+      name: client_id
+      value: 0c7d12c0-adae-43a9-88ef-c73d6a46e923
+      description: ""
+      disabled: false
+    - id: pair_f8391533648844aca7d9f106592061f2
+      name: client_secret
+      value: YC-t~8mp_xNZyMcX1nEoH9O6bJO7lF0dSc
+      description: ""
+    - id: pair_2d496137849345af910e413984c7bdce
+      name: grant_type
+      value: client_credentials
+      description: ""
+    - id: pair_bc224ea46adf414aa9dd8439c45f9c27
+      name: scope
+      value: "{{ _.scope }}"
+      description: ""
+    - id: pair_61ce8e3df4f542e788f636391991e15a
+      name: ""
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - id: pair_fa67bfea748e455781b9617d3eea7a58
+    name: Content-Type
+    value: application/x-www-form-urlencoded
+    description: ""
+authentication: {}
+metaSortKey: -1654607030970
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
